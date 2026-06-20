@@ -1,0 +1,8 @@
+# Paths to the C-MAPSS data files. The data itself is pulled with DVC and lives
+# under data/ (gitignored); only this pointer config is committed. Paths below are
+# resolved against data_dir, so moving the data only changes one line.
+data_dir: data/cmapss
+fd001:
+  train: train_FD001.txt
+  test: test_FD001.txt
+  rul: RUL_FD001.txt
