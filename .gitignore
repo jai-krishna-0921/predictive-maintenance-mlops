@@ -1,0 +1,23 @@
+# Secrets, the number one way to ruin a good repo
+*.pem
+*-key.json
+service-account*.json
+.env
+.env.*
+
+# Local MCP config holds a real token. Commit .mcp.json.example, never .mcp.json.
+.mcp.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ruff_cache/
+.pytest_cache/
+
+# DVC pulls the data, it does not live in git
+/data/
+
+# Local Claude Code state that should not be shared
+.claude/settings.local.json
