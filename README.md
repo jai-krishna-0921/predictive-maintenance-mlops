@@ -198,6 +198,7 @@ This repo is opinionated and the opinions are enforced by hooks. The short versi
 - Branch, then open a pull request. No direct pushes to `main`.
 - Conventional Commits, lowercase, imperative, scoped: `feat(rul): add lstm baseline`.
 - Tests ship with the code that needs them.
+- CI runs ruff and pytest on every pull request. Green is not optional.
 - No secrets, ever. No tool attribution on commits.
 
 `CLAUDE.md` is the full constitution. The hooks in `.claude/hooks/` enforce the
