@@ -240,5 +240,7 @@ Engine Run-to-Failure Simulation", PHM08, Denver, October 2008.
 
 ## License
 
-Not chosen yet. Until a `LICENSE` file lands, treat this as all rights reserved by the
-author. If you want to use it, ask.
+Apache License 2.0. The full text is in [LICENSE](LICENSE). In short: use it, modify it,
+and distribute it, including commercially, as long as you keep the copyright and license
+notices and accept that it ships with no warranty. Apache 2.0 also carries an explicit
+patent grant, which is the main reason to prefer it over MIT for something like this.
